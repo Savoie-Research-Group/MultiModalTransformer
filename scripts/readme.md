@@ -9,3 +9,5 @@
 [5] Evaluate model performance with noised spectra: step 1) same as [3]; 2) replace content in config_eval_noise.txt with correct file paths, select evaluation mode, noise level and which spectral inputs are noised; 3) run "python test_noise.py -c config_eval_noise.txt".
 
 [6] Evaluate model performance on solvent dataset: step 1) and 2) same as [3]; 3) run "python test_sol.py -c config_eval_sol.txt".
+
+[7] Evaluate model performance on multi dataset: step 1) and 2) same as [3]; 3) uncomment section indicated in calc_acc.py to print out results before running the script; 4) run "python test_multi.py -c config_eval_multi.txt". 5) A .txt file will be generated with top5 smiles prediction generated (XXX means invalid smiles) ending with the ground truth smiles separated by ';'.
