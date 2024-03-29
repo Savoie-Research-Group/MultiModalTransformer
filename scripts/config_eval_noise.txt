@@ -1,0 +1,12 @@
+src_test 'The path where src-test-30.csv is stored'
+tgt_test 'The path where tgt-test-30.csv is stored'
+null_src_test 'The path where null-src-test-30.csv is stored'
+null_tgt_test 'The path where null-tgt-test-30.csv is stored'
+mode_lst 1,1,1 #Select the evaluation mode consistent to the model tested eg->1,1,1 for model trained with all three spectral sources
+best_chk_path 'The path where evaluating model checkpoint eg.->XXX/XXX/best_ded_msirnmr.pt is stored'
+ch_to_idx_dict_path 'The path where ch_to_idx_dict.pickle is stored (under vocabulary directory)'
+idx_to_ch_dict_path 'The path where idx_to_ch_dict.pickle is stored (under vocabulary directory)'
+real_test_output_path 'The path to save the top-n accuracy of real reactions test sets. eg.->XXX/XXX/noise_real.txt'
+null_test_output_path 'The path to save the top-n accuracy of real reactions test sets. eg.->XXX/XXX/noise_null.txt'
+noise_level 0.2 #Scale of the noise fluctuation applied on spectra. 0.2 means add/minus 20% of intensity on randomly-selected peaks 
+return_spec 1,0,0 #noised spectra mode. eg. 1,0,0 means only noising the MS, 1,1,1 means noising all spectral sources. 

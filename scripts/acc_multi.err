@@ -1,0 +1,26 @@
+[20:06:29] SMILES Parse Error: syntax error while parsing: 1C=O
+[20:06:29] SMILES Parse Error: Failed parsing SMILES '1C=O' for input: '1C=O'
+[20:06:29] SMILES Parse Error: syntax error while parsing: 1C=O
+[20:06:29] SMILES Parse Error: Failed parsing SMILES '1C=O' for input: '1C=O'
+[20:06:29] SMILES Parse Error: syntax error while parsing: O=
+[20:06:29] SMILES Parse Error: Failed parsing SMILES 'O=' for input: 'O='
+[20:06:29] SMILES Parse Error: syntax error while parsing: (=NC)C=C
+[20:06:29] SMILES Parse Error: Failed parsing SMILES '(=NC)C=C' for input: '(=NC)C=C'
+[20:06:29] SMILES Parse Error: syntax error while parsing: (=C)C=C
+[20:06:29] SMILES Parse Error: Failed parsing SMILES '(=C)C=C' for input: '(=C)C=C'
+[20:06:29] SMILES Parse Error: syntax error while parsing: (=C)C=C
+[20:06:29] SMILES Parse Error: Failed parsing SMILES '(=C)C=C' for input: '(=C)C=C'
+[20:06:29] SMILES Parse Error: extra close parentheses while parsing: CC=CC(CC=C)OC(=O)c1ccccc1)OCC
+[20:06:29] SMILES Parse Error: Failed parsing SMILES 'CC=CC(CC=C)OC(=O)c1ccccc1)OCC' for input: 'CC=CC(CC=C)OC(=O)c1ccccc1)OCC'
+[20:06:29] SMILES Parse Error: extra close parentheses while parsing: CC=CC(CC(=O)c1ccccc1)OCC)OCC
+[20:06:29] SMILES Parse Error: Failed parsing SMILES 'CC=CC(CC(=O)c1ccccc1)OCC)OCC' for input: 'CC=CC(CC(=O)c1ccccc1)OCC)OCC'
+[20:06:29] SMILES Parse Error: extra close parentheses while parsing: CC=CC(CC(=O)c1ccccc1)OCC)OCC
+[20:06:29] SMILES Parse Error: Failed parsing SMILES 'CC=CC(CC(=O)c1ccccc1)OCC)OCC' for input: 'CC=CC(CC(=O)c1ccccc1)OCC)OCC'
+[20:06:29] SMILES Parse Error: syntax error while parsing: 2CCc1ccccc1
+[20:06:29] SMILES Parse Error: Failed parsing SMILES '2CCc1ccccc1' for input: '2CCc1ccccc1'
+[20:06:29] SMILES Parse Error: syntax error while parsing: 1CCc2ccccc2
+[20:06:29] SMILES Parse Error: Failed parsing SMILES '1CCc2ccccc2' for input: '1CCc2ccccc2'
+[20:06:29] SMILES Parse Error: syntax error while parsing: C=Cc1ccc(
+[20:06:29] SMILES Parse Error: Failed parsing SMILES 'C=Cc1ccc(' for input: 'C=Cc1ccc('
+[20:06:29] SMILES Parse Error: syntax error while parsing: O=
+[20:06:29] SMILES Parse Error: Failed parsing SMILES 'O=' for input: 'O='

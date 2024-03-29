@@ -1,0 +1,12 @@
+src_train 'The path where src-train-30.csv is saved'
+tgt_train 'The path where tgt-train-30.csv is saved'
+src_val 'The path where src-val-30.csv is saved'
+tgt_val 'The path where tgt-val-30.csv is saved'
+null_src_train 'The path where null-src-train-30.csv is saved'
+null_tgt_train 'The path where null-tgt-train-30.csv is saved'
+null_src_val 'The path where null-src-val-30.csv is saved'
+null_tgt_val 'The path where null-tgt-val-30.csv is saved'
+loss_path 'The path to save the training loss log file with the filename at the end: eg->XXX/XXX/ded_msirnmr.log'
+mode_lst 1,1,1 #what spectral inputs you want to train with: 1 with / 0 without that spectral sources. Spectral order: MS,IR,1H-NMR 
+best_chk_path 'The path to save the best checkpoint: eg->XXX/XXX/best_ded_msirnmr.pt'
+end_chk_path 'The path to save the end of training checkpoint: eg->XXX/XXX/end_ded_msirnmr.pt

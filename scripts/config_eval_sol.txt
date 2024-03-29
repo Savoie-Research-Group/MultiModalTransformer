@@ -1,0 +1,9 @@
+src_test 'The path where src-solvent.csv is stored'
+tgt_test 'The path where tgt-solvent.csv is stored'
+mode_lst 1,0,0 #select evaluation mode consistent to the model checkpoint mode
+best_chk_path 'The path where evaluating checkpoit is stored eg->XXX/XXX/best_ded_ms.pt'
+ch_to_idx_dict_path 'The path where ch_to_idx_dict.pickle is stored'
+idx_to_ch_dict_path 'The path where idx_to_ch_dict.pickle is stored'
+real_test_output_path 'The path to save the top-n accuracy of solvent test case: eg.->XXX/XXX/ded_ms_solvent.txt'
+
+

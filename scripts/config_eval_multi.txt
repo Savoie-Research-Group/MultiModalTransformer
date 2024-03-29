@@ -1,0 +1,8 @@
+src_test 'The path where multi-X.csv or multi-X1.csv is stored'
+tgt_test 'The path where multi-Y.csv or multi-Y1.csv is stored'
+mode_lst 1,1,1 #make this consistent to the model checkpoint mode
+best_chk_path 'The path where evaluating checkpoint eg./XXX/XXX/best_ded_msirnmr4.pt is stored'
+ch_to_idx_dict_path 'The path where ch_to_idx_dict.pickle is stored (under vocabulary directory)'
+idx_to_ch_dict_path 'The path where idx_to_ch_dict.pickle is stored (under vocabulary directory)'
+
+

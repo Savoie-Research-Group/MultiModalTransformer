@@ -1,0 +1,11 @@
+src_test 'The path where src-test-30.csv is stored'
+tgt_test 'The path where tgt-test-30.csv is stored'
+null_src_test 'The path where null-src-test-30.csv is stored'
+null_tgt_test 'The path where null-tgt-test-30.csv is stored'
+mode_lst 1,1,1 #select the testing mode consistent to the checkpoint mode eg-> 1,1,1 for evaluating performance on model trained with all three spectral sources
+best_chk_path 'The path where the evaluating checkpoint is stored eg->XXX/XXX/best_ded_msirnmr.pt'
+ch_to_idx_dict_path 'The path where ch_to_idx_dict.pickle is stored (under vocabulary directory)'
+idx_to_ch_dict_path 'The path where idx_to_ch_dict.pickle is stored (under vocabulary directory)'
+real_test_output_path 'The path to record the correct top-n prediction number for real reaction test set eg->XXX/XXX/ded_msirnmr_real.txt'
+null_test_output_path 'The path to record the correct top-n prediction number for null reaction test set eg->XXX/XXX/ded_msirnmr_null.txt'
+
